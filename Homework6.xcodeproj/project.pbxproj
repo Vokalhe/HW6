@@ -15,6 +15,8 @@
 		84EF48C51C6140B9005CFDFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84EF48C31C6140B9005CFDFF /* LaunchScreen.storyboard */; };
 		84EF48D01C6140B9005CFDFF /* Homework6Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EF48CF1C6140B9005CFDFF /* Homework6Tests.m */; };
 		84EF48DB1C6140B9005CFDFF /* Homework6UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EF48DA1C6140B9005CFDFF /* Homework6UITests.m */; };
+		84EF48EA1C614123005CFDFF /* VCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EF48E91C614123005CFDFF /* VCViewController.m */; };
+		84EF48ED1C616137005CFDFF /* UIColor+RandomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EF48EC1C616137005CFDFF /* UIColor+RandomColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		84EF48D61C6140B9005CFDFF /* Homework6UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Homework6UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84EF48DA1C6140B9005CFDFF /* Homework6UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Homework6UITests.m; sourceTree = "<group>"; };
 		84EF48DC1C6140B9005CFDFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84EF48E81C614123005CFDFF /* VCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCViewController.h; sourceTree = "<group>"; };
+		84EF48E91C614123005CFDFF /* VCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCViewController.m; sourceTree = "<group>"; };
+		84EF48EB1C616137005CFDFF /* UIColor+RandomColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RandomColor.h"; sourceTree = "<group>"; };
+		84EF48EC1C616137005CFDFF /* UIColor+RandomColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RandomColor.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,10 @@
 				84EF48C11C6140B9005CFDFF /* Assets.xcassets */,
 				84EF48C31C6140B9005CFDFF /* LaunchScreen.storyboard */,
 				84EF48C61C6140B9005CFDFF /* Info.plist */,
+				84EF48E81C614123005CFDFF /* VCViewController.h */,
+				84EF48E91C614123005CFDFF /* VCViewController.m */,
+				84EF48EB1C616137005CFDFF /* UIColor+RandomColor.h */,
+				84EF48EC1C616137005CFDFF /* UIColor+RandomColor.m */,
 				84EF48B51C6140B9005CFDFF /* Supporting Files */,
 			);
 			path = Homework6;
@@ -271,6 +281,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				84EF48BD1C6140B9005CFDFF /* ViewController.m in Sources */,
+				84EF48ED1C616137005CFDFF /* UIColor+RandomColor.m in Sources */,
+				84EF48EA1C614123005CFDFF /* VCViewController.m in Sources */,
 				84EF48BA1C6140B9005CFDFF /* AppDelegate.m in Sources */,
 				84EF48B71C6140B9005CFDFF /* main.m in Sources */,
 			);
