@@ -27,7 +27,6 @@
     VCViewController *newView = [VCViewController new];
     newView.view = [[UIView alloc]initWithFrame:self.view.frame];
     [newView.view setBackgroundColor:[UIColor_RandomColor newRandomColor]];
-    newView.title = [[NSString alloc] initWithFormat: @"View %lu", self.navigationController.viewControllers.count];
     
     UIBarButtonItem *rightNewView = [[UIBarButtonItem alloc] initWithTitle:@"RightNewView"
     style:UIBarButtonItemStylePlain target:self action:@selector(newView)];
@@ -44,6 +43,9 @@
     
     
     [self.navigationController pushViewController:newView animated:YES];
+}
+-(void) viewWillAppear:(BOOL)animated{
+    self.title = [[NSString alloc] initWithFormat: @"View %lu", self.navigationController.viewControllers.count];
 }
 - (void) willRotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration{
     NSLog(@"%s", __PRETTY_FUNCTION__);
